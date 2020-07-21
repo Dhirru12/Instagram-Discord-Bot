@@ -1,5 +1,6 @@
 # Instagram-Discord-Bot
 Discord bot for Instagram, can be used for yourself or for a groupchat.\
+![HI](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!hello.PNG?raw=true)
 It can:
 - Check the weather
 - Get youtube videos
