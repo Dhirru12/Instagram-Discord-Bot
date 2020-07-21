@@ -66,7 +66,7 @@ public static void main(String[] args) throws InterruptedException {
 		String text = "placeholder";
 		
 		//Sends that the bot is online
-		sendText("Bot online",driver);
+		sendText("insta.bot online",driver);
 		
 		while(!text.equals("!exit")) {
 			try{
@@ -88,7 +88,7 @@ public static void main(String[] args) throws InterruptedException {
 		    	}
 		    	//Will display all commands available, feel free to add on if you make new commands
 		    	else if (text.contains("!guide")) {
-			    	sendText("Welcome to doggo.bot!\r\n" + 
+			    	sendText("Welcome to insta.bot!\r\n" + 
 			    			"!hello - say hi back\r\n" + 
 			    			
 			    			"!weather - fetches wather for certain location\r\n" + 
@@ -112,7 +112,7 @@ public static void main(String[] args) throws InterruptedException {
 		    		driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("What's the weather in "+location,Keys.RETURN);
 		    		location = driver.findElement(By.xpath("//*[@id=\"wob_loc\"]")).getText();
 		    		temp = driver.findElement(By.xpath("//*[@id=\"wob_tm\"]")).getText();
-		    		temp += "°C with " + driver.findElement(By.xpath("//*[@id=\"wob_dc\"]")).getText().toLowerCase() + " weather";
+		    		temp += "Â°C with " + driver.findElement(By.xpath("//*[@id=\"wob_dc\"]")).getText().toLowerCase() + " weather";
 		    		driver.navigate().back();
 		    		
 		    		//Sends text
@@ -178,7 +178,7 @@ public static void main(String[] args) throws InterruptedException {
 
 		    	}
 		    	//Sends text to what user is typed after '!text'
-		    	//Cannot recieve texts yet when chat is opened
+		    	//Cannot recieve texts when chat is opened (yet)
 		    	else if (text.contains("!text")) {
 		    		try {
 		    		
@@ -194,8 +194,9 @@ public static void main(String[] args) throws InterruptedException {
 		    		
 		    		//Tells person that's receiving the texts that they are chatting with the bot
 		    		//Feel free to comment this block out if you don't want to use it
+				Thread.sleep(2000);
 		    		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@placeholder = 'Message...']")));
-		    		sendText("You are now starting a chat with the Insta Discord bot",driver);
+		    		sendText("You are now starting a chat with the Instagram Discord bot",driver);
 			    	driver.findElement(By.xpath("//div[text()='"+whoToChatWith+"']")).click();
 		    		
 			    	//Tells you that the chat has started
