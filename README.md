@@ -1,5 +1,5 @@
 # Instagram-Discord-Bot
-Discord bot for Instagram, can be used for yourself or for a groupchat.
+Discord bot for Instagram, can be used for yourself or for a groupchat.\
 It can:
 - Check the weather
 - Get youtube videos
@@ -11,9 +11,9 @@ It can:
 Built in Java 8.0 and Selenium.
 
 ***********************************************************
-You must have an Instagram already available for the bot
-The bot must have access to whatever user or groupchat you want it to talk to
-The DM chat must be already be created
+You must have an Instagram already available for the bot\
+The bot must have access to whatever user or groupchat you want it to talk to\
+The DM chat must be already be created\
 ***********************************************************
 
 That's it, be sure to read the code where almost every block of code
