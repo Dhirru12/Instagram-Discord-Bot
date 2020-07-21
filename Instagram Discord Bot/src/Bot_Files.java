@@ -133,13 +133,15 @@ public static void main(String[] args) throws InterruptedException {
 		    		//Retrieves link for video (chance of retrieving ad link by mistake)
 		    		driver.get("https://www.youtube.com/results?search_query="+text.substring(4,text.length()));
 		    		Thread.sleep(2000);
-		    		List<WebElement> youtubeVids =  driver.findElements(By.xpath("//*[@id=\"contents\"]/ytd-video-renderer[1]"));
+		    		temp = driver.findElement(By.xpath("//*[@id=\"video-title\"]")).getAttribute("href");
+				//I'll be fixing this block to prevent the bot from picking up ad video links
+		    		/*List<WebElement> youtubeVids =  driver.findElements(By.xpath("//*[@id=\"contents\"]/ytd-video-renderer[1]"));
 		    		temp = youtubeVids.get(youtubeVids.size()-1).findElement(By.xpath("//*[@id=\"contents\"]/ytd-video-renderer[1]")).getAttribute("href");
 		    		System.out.println(temp);
 		    		if (temp.contains("www.googleadservices.com")) {
 		    			temp = youtubeVids.get(youtubeVids.size()-2).findElement(By.xpath("/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3]/ytd-search-pyv-renderer/div/ytd-promoted-video-renderer/ytd-thumbnail/a")).getAttribute("href");
 		    			System.out.println(temp);
-		    		}
+		    		}*/
 		    		//Sends link
 		    		goBack(whoToChatWith,driver,wait);
 		    		sendText(temp,driver);
