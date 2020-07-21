@@ -11,9 +11,9 @@ It can:
 Built in Java 8.0 and Selenium.
 
 ***********************************************************
-YOU MUST HAVE AN INSTAGRAM ALREADY AVAILABLE FOR THE BOT
-THE BOT MUST HAVE ACCESS TO WHATEVER USER OR GROUPCHAT YOU WANT IT TO TALK TO
-THE DM CHAT MUST ALREADY BE CREATED
+You must have an Instagram already available for the bot
+The bot must have access to whatever user or groupchat you want it to talk to
+The DM chat must be already be created
 ***********************************************************
 
 That's it, be sure to read the code where almost every block of code
