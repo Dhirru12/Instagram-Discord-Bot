@@ -3,12 +3,21 @@ Discord bot for Instagram, can be used for yourself or for a groupchat.\
 ![HI](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!hello.PNG?raw=true)
 It can:
 - Check the weather
+![Weather](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!weather.PNG?raw=true)
 - Get youtube videos
+![YT](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!yt.PNG?raw=true)
 - Get images
+![Img](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!img.PNG?raw=true)
 - Text other users
+(My perspective)\
+![textme](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!text-myside.PNG?raw=true)
+(Bot perspective)\
+![textbot](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!text-botside.PNG?raw=true)
 - Retrieve any public user's latest post
+![postclose](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!post.PNG?raw=true)
+![postopen](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!postopen.PNG?raw=true)
 - Connect to Elbot to become a chatbot
-
+![Chat](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!chat.PNG?raw=true)
 Built in Java 8.0 and Selenium.
 
 ***********************************************************
