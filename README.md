@@ -1,25 +1,24 @@
 # Instagram-Discord-Bot
 Discord bot for Instagram, can be used for yourself or for a groupchat.\
 <img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!hello.PNG?raw=true" width="500" />
-![HI](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!hello.PNG?raw=true|width=10)
 It can:
 - Check the weather
-<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!weather.PNG?raw=true" width="100" />
-![Weather](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!weather.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!weather.PNG?raw=true" width="500" />
 - Get youtube videos
-![YT](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!yt.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!yt.PNG?raw=true" width="500" />
 - Get images
-![Img](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!img.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!img.PNG?raw=true" width="500" />
 - Text other users
 (My perspective)\
-![textme](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!text-myside.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!text-myside.PNG?raw=true" width="500" />
 (Bot perspective)\
-![textbot](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!text-botside.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!text-botside.PNG?raw=true" width="500" />
 - Retrieve any public user's latest post
-![postclose](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!post.PNG?raw=true|width=100)
-![postopen](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!postopen.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!post.PNG?raw=true" width="500" />
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!postopen.PNG?raw=true" width="500" />
 - Connect to Elbot to become a chatbot
-![Chat](https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!chat.PNG?raw=true|width=100)
+<img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!chat.PNG?raw=true" width="500" />
+\
 Built in Java 8.0 and Selenium.
 
 ***********************************************************
