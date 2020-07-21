@@ -21,11 +21,11 @@
 <img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!chat.PNG?raw=true" width="400" />\
 \
 Built in Java 8.0 and Selenium.
-\
+
 ***********************************************************
-You must have an Instagram already available for the bot\
-The bot must have access to whatever user or groupchat you want it to talk to\
-The DM chat must be already be created
+_**You must have an Instagram already available for the bot**_\
+_**The bot must have access to whatever user or groupchat you want it to talk to**_\
+_**The DM chat must be already be created**_
 ***********************************************************
 
 That's it, be sure to read the code where almost every block of code
