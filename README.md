@@ -20,12 +20,12 @@
 #### Connect to Elbot to become a chatbot:
 <img src="https://github.com/Dhirru12/Instagram-Discord-Bot/blob/master/images/!chat.PNG?raw=true" width="400" />\
 \
-Built in Java 8.0 and Selenium.\
-
+Built in Java 8.0 and Selenium.
+\
 ***********************************************************
 You must have an Instagram already available for the bot\
 The bot must have access to whatever user or groupchat you want it to talk to\
-The DM chat must be already be created\
+The DM chat must be already be created
 ***********************************************************
 
 That's it, be sure to read the code where almost every block of code
